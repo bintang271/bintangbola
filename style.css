@@ -1,0 +1,101 @@
+body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: #333;
+}
+
+/* Header dan Navigasi */
+header{
+    background-color: #006400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* Container Umum */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Profil Club */
+.club-profile{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.club-profile img{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.club-profile h2{
+    margin-top: 0;
+    color: #006400;
+}
+
+/* Statistik, Jadwal, Dan Berita */
+.stats, .schedule, .news{
+    margin-top: 30px;
+}
+
+.stats h2, .schedule h2, .news h2{
+    border-left: 5px solid #006400;
+    padding-left: 10px;
+    color: #006400;
+}
+
+.schedule li, .news ul{
+    padding-left: 20px;
+}
+
+.schedule li, .news li{
+    margin-bottom: 10px;
+}
+
+/* Link Berita */
+.news a {
+    text-decoration: none;
+    color: #006400;
+}
+
+.news a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
